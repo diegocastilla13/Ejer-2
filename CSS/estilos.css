@@ -1,1 +1,15 @@
-h4{color: pink;}
+body {font family: "courir new",courier, monospace;}
+/**h4{color: pink;}
+li
+{color:blue;}
+h2{color:green;}
+h1{color:red;} **/
+#titulo {background-color:grey; color:white; font-size:24px;}
+.ejemplo{background-color:blue; color:white;}
+h2, h3 {border:1px solid orange;}
+li {color: red;}
+li li {color:green;}
+div>a{border:5px solid green;}
+h2+p{background-color:green;}
+.antes{background-color:pink;}
+img[alt="ejemplo"]{border: 5px solid grey;}
