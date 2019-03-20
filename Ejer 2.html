@@ -10,39 +10,50 @@
 		<link href="./css/estilos.css" rel="stylesheet" type="text/css" >
 		
 	<body>
-		<h1 style="color: red">TODO ES UNA CAJA (estilo in line) </h1>
+		<h1 id="titulo">CSS:SINTAXIS Y SELECTORES</h1>
 		
-		<p>Uno de los conceptos mas importates que debemos recordar a la hora de elaborar CSS es que todos y cada uno de los elementos de mi pagina web son cajas. </p>
+		<hr>
 		
-		<p>Eso exactamente,¿que significa?. Significa que todos los elemtos que representan algo en HTML, tienen la siguiente estructura visual:</p>	
-		
-		Con ese modelo debemos por lo tanto distinguir las siguientes zonas:
-		
-		<img src="./imagenes/imagen1.png" </img>
-		
+		<h2> Sintaxis CSS </h2>
+		<p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
+		<img src="./imagenes/selector.jpg"  alt="CSS selector partes." title="partes del selector"> </img>
 		<ul>
-			<li>El contenido que es lo "importante", el texto en las etiquetas de texto, la imagen en las etiquetas de imagen.etc </li>
-			<li>El padding que es la distancia que existe entre el contenido y borde de la caja. </li>
-			<li>El borde que es el elemntento que marca la division entre el elemento y el resto de los elementos de la pagina </li>
-			<li>El margen que es la distancia entre el elemento y el resto de los elementos de la pagina. </li>
+			<li>Los puntos selector para el elemento HTML que desea estilo.
+				<ul>
+					<li>El bloque de declaración contiene uno o más declaraciones separados por punto y coma.</li>
+					<li>Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.</li>
+					<li>Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones están rodeados por llaves.</li>
+				</ul>
+			</li>
 		</ul>
 		
-	
-		<h2>Comportamiento de una caja (Estilos con la etiqueta style)</h2>
+		<p>En el siguiente ejemplo todas &lt;p&gt; elementos serán-centro alineados, con un color de texto de color rojo:</p>	
 		
-		<p>Los elementos en bloque son elementos que, independientemente de la anchura que tengan, se separaran verticalmente de los elementos anteriores y posteriores</p>
+		<h4 class="ejemplo"> ejemplo </h4>
 		
-		<p>Es como si "provocasran" uun salto de linea ante y uno despues (figuradamente hablando)</p>
+		<div>
 		
-		<p>en cambio, los elementos</p>
+			<img src="./imagenes/ejemplo.gif"  alt="ejemplo" title="selector p"> </img>
+			
+			<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">intentalo tu mismo </a>
 		
-		<p>Representando esto graficamente seria algo asi:</p>
-
-				<img src="./imagenes/imagen2.png" alt="imagen de tres elemtos en la misma linea" </img>
-				
-				<img src="./imagenes/imagen3.png" alt="algo"</img>
-				
-		<h4> NOTA: es muy importante saber que tipo de elemto es cada etique que usamos </h4>
+		</div>
+		
+		<h3 class="antes">Los selectores CSS</h3>
+			<p>selectores CSS se utilizan para &quot;encontrar&quot; (o seleccionar) elementos HTML en función de su nombre del elemento, ID, clase, atributo, y mucho más.</p>
+		<h3>El selector de elementos</h3>
+			<p>El selector de elementos selecciona elementos basados ​​en el nombre del elemento.</p>
+			<p>Puede seleccionar todos los elementos &lt;p&gt; en una página como esta (en este caso, todos los elementos &lt;p&gt; serán centro alineado, con un color rojo texto):</p>
+		
+		<h4 class="ejemplo"> ejemplo </h4>
+		
+		<div>
+		
+			<img src="./imagenes/ejemplo.gif"  alt="eje,plo de selector p color rojo y centrado" title="selector p"> </img>
+			
+			<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">intentalo tu mismo </a>
+		
+		</div>
 	</body>
 	</head>
 </html>
